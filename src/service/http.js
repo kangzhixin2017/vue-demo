@@ -5,6 +5,7 @@ import axios from 'axios'
 //声明请求实例
 let instance = axios.create({
     baseURL: 'http://118.190.206.204:8001',
+    // baseURL: '/api', //测试跨域地址
     timeout: 5000
 })
 

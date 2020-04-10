@@ -1,4 +1,4 @@
-# axios
+# axios   @vue/cli 4.1.1
 
 ## Project setup
 ```

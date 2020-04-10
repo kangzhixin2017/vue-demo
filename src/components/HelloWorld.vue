@@ -25,12 +25,17 @@ export default {
       let res = await this.$http.getuser();
       console.log('4')
       console.log(res);
+    },
+    async test(){
+      let res = await this.$http.testCross();
+      console.log(res)
     }
   },
   created() {
     console.log("sdf");
     this.get();
     this.getuser();
+    // this.test() //测试跨域
   }
 };
 </script>

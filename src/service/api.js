@@ -9,6 +9,11 @@ const API = {
     getuser:{
         method: 'post',
         url: '/adm/buser/getBUserConfig'
+    },
+    //测试跨域接口
+    testCross:{
+        method:'post',
+        url:'/getSms/'
     }
 }
 export default API
